@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# eCommerce Store
+
+Welcome to the repository of the eCommerce Store.
+
+## Project Overview
+
+The eCommerce store is a minimal shopping website made using Next.js 14, Tailwind, Prisma and PostgreSQL.
+Checkout the [eCommerce admin panel](https://ecommerce-admin-kappa-dun.vercel.app/)
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to run the project locally:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the Repository:**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+   ```bash
+   git clone https://github.com/hg8116/ecommerce-store.git
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Navigate to the Project Directory:**
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+   ```bash
+   cd ecommerce-store
+   ```
 
-## Learn More
+3. **Install Dependencies:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Environment Variables**
+   Create a .env file inside the root folder and fill the following secrets -
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```
+   NEXT_PUBLIC_API_URL=""
+   ```
 
-## Deploy on Vercel
+   This can be found from the eCommerce admin.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+5. **Run the Development Server:**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   ```bash
+   npm run dev -p 3001
+   ```
+
+   Open [http://localhost:3001](http://localhost:3001) in your browser to view the eCommerce store.
+
+## Customization
+
+Feel free to customize the eCommerce store to fit your specific needs. Update content, modify styles, and add additional components as required.
+
+## Deployment
+
+This project is ready to be deployed to platforms like Vercel or Netlify. Refer to the documentation of your chosen hosting service for deployment instructions.
+
+## Contributing
+
+If you'd like to contribute to this project, please follow the standard GitHub flow: fork the repository, create a branch, make your changes, and submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Thank you for checking out our eCommerce Admin Panel! If you have any questions or feedback, feel free to open an issue.
+
+This project is just made for educational purpose, thank you to [Code With Antonio](https://www.youtube.com/@codewithantonio) for the tutorial.
